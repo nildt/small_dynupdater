@@ -2,7 +2,11 @@
 
 ## General 
 small_dynupdater is a small tool to update your ip to two-dns, a free dynamic dns provider.
- 
+
+## How
+It uses the [libcur](http://curl.haxx.se/libcurl/ "libcurl") library and the Two Dns [API](https://twodns.de/de/api "API")
+to change your IP if it has changed after a certain time. To check your current IP it uses http://checkip.twodns.de/. 
+
 ## Intention
 * Being client at [twodns.de](http://twodns.de/ "twodns") I had of course to update my ip
 * First I used a small bashscript with curl commands; but I tried to do the same with a c-programm
