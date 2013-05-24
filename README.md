@@ -15,18 +15,18 @@ to change your IP if it has changed after a certain time. To check your current 
 ## Making
 1.	Just set your username and password (the API-token) in the small_dynupdater.h file. 
 2.	Adjust the time the program will check your IP
-3. 	make install will build the program in the bin folder. 
+3. 	'make install' will build the program in the bin folder. 
 
 
 ## To do
-*	Use *always SSL* (power on the ssl check)
+*	Use *always SSL* (switch on the ssl check)
 *	Documentation
 *	Licence
 *	Improve IP extraction :P
-*	Add some funktions out of the two dns API e.g. to show all hosts... (get request)
+*	Add some functions out of the two dns API e.g. to show all hosts... (get request)
 
 ## Debug
-:	Run make debug to create a verbose version in ./bin/
+Run 'make debug' to create a verbose version in ./bin/
 	
 
 
