@@ -8,11 +8,7 @@ It uses the [libcur](http://curl.haxx.se/libcurl/ "libcurl") library and the Two
 to change your IP if it has changed after a certain time. To check your current IP it uses http://checkip.twodns.de/. 
 
 ## Intention
-<<<<<<< HEAD
-* Being client at [twodns.de](http://twodns.de/ "twodns") I had of course to update my ip
-=======
 * Being client at [twodns.de](http://twodns.de/ "twodns") I had to update my ip frequently
->>>>>>> 0b38613006bb6b8f22785c1ac94551c9fba4a315
 * First I used a small bashscript with curl commands; but I tried to do the same with a c-program
 * Look at the *old* small_dynupdater.sh
 
@@ -35,4 +31,5 @@ Run 'make debug' to create a verbose version in ./bin/
 
 
  
+
 
