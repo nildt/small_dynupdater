@@ -9,7 +9,7 @@ to change your IP if it has changed after a certain time. To check your current 
 
 ## Intention
 * Being client at [twodns.de](http://twodns.de/ "twodns") I had of course to update my ip
-* First I used a small bashscript with curl commands; but I tried to do the same with a c-programm
+* First I used a small bashscript with curl commands; but I tried to do the same with a c-program
 * Look at the *old* small_dynupdater.sh
 
 ## Making
